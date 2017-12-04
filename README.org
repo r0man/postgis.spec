@@ -1,0 +1,24 @@
+* postgis.spec
+  #+author: r0man
+  #+LANGUAGE: en
+
+  [[https://clojars.org/postgis.spec][https://img.shields.io/clojars/v/postgis.spec.svg]]
+  [[https://travis-ci.org/r0man/postgis.spec][https://travis-ci.org/r0man/postgis.spec.svg]]
+  [[http://jarkeeper.com/r0man/postgis.spec][http://jarkeeper.com/r0man/postgis.spec/status.svg]]
+  [[http://jarkeeper.com/r0man/postgis.spec][https://jarkeeper.com/r0man/postgis.spec/downloads.svg]]
+
+  Clojure specs and generators for PostGIS types.
+
+** Usage
+
+   #+BEGIN_SRC clojure :exports code :results silent
+     (require '[clojure.spec.alpha :as s])
+     (require '[postgis.spec :as postgis])
+     (s/exercise ::postgis/point)
+   #+END_SRC
+
+** License
+
+   Copyright © 2012-2016 [[https://github.com/r0man][r0man]]
+
+   Distributed under the Eclipse Public License, the same as Clojure.
