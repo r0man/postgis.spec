@@ -6,7 +6,7 @@
   (gen/double* {:NaN? false :infinite? false}))
 
 (defn- such-that-consistent [gen]
-  (gen/such-that #(.checkConsistency %) gen 100))
+  (gen/such-that #(.checkConsistency %) gen 1000))
 
 (def point-2d
   "A generator that produces 2d Point instances."
