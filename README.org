@@ -3,9 +3,9 @@
   #+LANGUAGE: en
 
   [[https://clojars.org/postgis.spec][https://img.shields.io/clojars/v/postgis.spec.svg]]
-  [[https://travis-ci.org/r0man/postgis.spec][https://travis-ci.org/r0man/postgis.spec.svg]]
-  [[http://jarkeeper.com/r0man/postgis.spec][http://jarkeeper.com/r0man/postgis.spec/status.svg]]
-  [[http://jarkeeper.com/r0man/postgis.spec][https://jarkeeper.com/r0man/postgis.spec/downloads.svg]]
+  [[https://github.com/r0man/postgis.spec/actions?query=workflow%3A%22Clojure+CI%22][https://github.com/r0man/postgis.spec/workflows/Clojure%20CI/badge.svg]]
+  [[https://versions.deps.co/r0man/postgis.spec][https://versions.deps.co/r0man/postgis.spec/status.svg]]
+  [[https://versions.deps.co/r0man/postgis.spec][https://versions.deps.co/r0man/postgis.spec/downloads.svg]]
 
   Clojure specs and generators for PostGIS types.
 
