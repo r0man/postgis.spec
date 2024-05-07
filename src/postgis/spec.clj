@@ -1,7 +1,8 @@
 (ns postgis.spec
   (:require [clojure.spec.alpha :as s]
             [postgis.spec.gen :as gen])
-  (:import [org.postgis LinearRing LineString MultiLineString MultiPoint MultiPolygon Point Polygon]))
+  (:import [net.postgis.jdbc.geometry LinearRing LineString MultiLineString
+            MultiPoint MultiPolygon Point Polygon]))
 
 (s/def ::line-string
   (s/with-gen #(instance? LineString %)

@@ -1,6 +1,7 @@
 (ns postgis.spec.gen
   (:require [clojure.spec.gen.alpha :as gen])
-  (:import [org.postgis LinearRing LineString MultiLineString MultiPoint MultiPolygon Point Polygon]))
+  (:import [net.postgis.jdbc.geometry LinearRing LineString MultiLineString
+            MultiPoint MultiPolygon Point Polygon]))
 
 (def coordinate
   (gen/double* {:NaN? false :infinite? false}))
