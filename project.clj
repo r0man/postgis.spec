@@ -4,7 +4,7 @@
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :deploy-repositories [["releases" :clojars]]
-  :dependencies [[org.clojure/clojure "1.10.2"]]
+  :dependencies [[org.clojure/clojure "1.11.3"]]
   :profiles {:dev {:dependencies [[org.clojure/test.check "1.1.1"]]
                    :plugins [[jonase/eastwood "0.3.13"]
                              [lein-difftest "2.0.0"]
