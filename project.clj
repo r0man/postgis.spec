@@ -1,4 +1,4 @@
-(defproject postgis.spec "0.2.0-SNAPSHOT"
+(defproject postgis.spec "0.2.0"
   :description "Clojure specs and generators for PostGIS types"
   :url "https://github.com/r0man/postgis.spec"
   :license {:name "Eclipse Public License"
